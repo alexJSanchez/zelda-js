@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
   const grid = document.getElementById("grid");
 
-  const score = document.getElementById("score");
-  const level = document.getElementById("level");
-  const enemies = document.getElementById("enemies");
+  const scoreDisplay = document.getElementById("score");
+  const levelDisplay = document.getElementById("level");
+  const enemiesDisplay = document.getElementById("enemies");
 
   const width = 10;
   const tileSize = 48;

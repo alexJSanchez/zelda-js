@@ -25,3 +25,7 @@ body {
   width: 48px;
   height: 48px;
 }
+
+.left-wall {
+  background-image: url("images/rfDoaa1.png");
+}
