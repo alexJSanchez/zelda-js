@@ -52,31 +52,24 @@ document.addEventListener("DOMContentLoaded", () => {
     for (let i = 0; i < 9; i++) {
       for (let j = 0; j < width; j++) {
         const square = document.createElement("div");
-        square.setAttribute("id", String(i * width + j));
+        square.setAttribute("id", i * width + j);
 
         // const char = currentMap[i][j];
         // addMapElement(square, char, j, i);
-        
+
         grid.appendChild(square);
         squares.push(square);
       }
     }
   }
   createBoard();
+  console.log(squares);
 
   function addMapElement(square, char, x, y) {
     switch (char) {
       case "a":
         square.classList.add("left-wall");
         break;
+    }
   }
-
-
-
-
-
-
-
-
-
 });
