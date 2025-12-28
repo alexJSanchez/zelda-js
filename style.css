@@ -35,7 +35,9 @@ body {
 .link-left,
 .link-right,
 .link-down,
-.link-up {
+.link-up,
+.slicer-enemy,
+.skeletor-enemy {
 	position: absolute;
 	width: 48px;
 	height: 48px;

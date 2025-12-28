@@ -106,10 +106,10 @@ document.addEventListener("DOMContentLoaded", () => {
                 square.classList.add("fire-pot");
                 break;
             case "+":
-                square.classList.add("slicer-enemy");
+                slicerElement(x, y);
                 break;
             case "}":
-                square.classList.add("skeletor-enemy");
+                createSkeletor(x, y);
                 break;
         }
 
@@ -127,6 +127,38 @@ document.addEventListener("DOMContentLoaded", () => {
         grid.appendChild(playerElement);
     }
 
+    function slicerElement(x, y) {
+        const element = document.createElement('div');
+        element.className = 'slicer-enemy';
+        element.style.left = `${x * tileSize}px`;
+        element.style.top = `${y * tileSize}px`;
+
+        const slicer = {
+            x, y,
+            direction: -1,
+            type: 'slicer',
+            slicerElement
+        }
+        enemies.push(slicer);
+
+        grid.appendChild(element);
+    }
 
 
+    function createSkeletor(x, y) {
+        const skeletorElement = document.createElement('div');
+        skeletorElement.className = 'skeletor-enemy';
+        skeletorElement.style.left = `${x * tileSize}px`;
+        skeletorElement.style.top = `${y * tileSize}px`;
+
+        const skeletor = {
+            x, y,
+            direction: -1,
+            type: 'skeletor',
+            element: element
+        }
+        enemies.push(skeletor);
+
+        grid.appendChild(skeletorElement);
+    }
 });
