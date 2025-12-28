@@ -19,3 +19,7 @@ body {
   height: 432px;
   width: 480px;
 }
+.grid div {
+  width: 48px;
+  height: 48px;
+}
