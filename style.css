@@ -1,0 +1,15 @@
+body {
+  font-famlily: currier-new, monospace;
+  background-color: #1a1a2e;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.grid {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) insert, 0 1px 0 #fff;
+  height: 432px;
+  width: 480px;
+}
