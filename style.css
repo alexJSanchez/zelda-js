@@ -8,6 +8,12 @@ body {
   align-items: center;
   height: 100vh;
 }
+.ui {
+  display: flex;
+  justify-content: space-between;
+  width: 480px;
+}
+
 .grid {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) insert, 0 1px 0 #fff;
   height: 432px;
