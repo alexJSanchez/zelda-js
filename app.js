@@ -60,6 +60,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 squares.push(square);
             }
         }
+        createPlayer();
     }
     createBoard();
 
@@ -113,4 +114,19 @@ document.addEventListener("DOMContentLoaded", () => {
         }
 
     }
+
+
+    function createPlayer() {
+        const playerElement = document.createElement('div');
+        playerElement.className = 'link-right';
+        playerElement.id = 'player';
+
+        playerElement.style.left = `${(playerPosition % width) * tileSize}px`;
+        playerElement.style.top = `${Math.floor(playerPosition / width) * tileSize}px`;
+
+        grid.appendChild(playerElement);
+    }
+
+
+
 });
