@@ -1,52 +1,55 @@
 body {
-  font-famlily: currier-new, monospace;
-  background-color: #1a1a2e;
-  color: #fff;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+	font-famlily: currier-new, monospace;
+	background-color: #1a1a2e;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
 }
 .ui {
-  display: flex;
-  justify-content: space-between;
-  width: 480px;
+	display: flex;
+	justify-content: space-between;
+	width: 480px;
 }
 
 #grid {
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) inset, 0 1px 0 #fff;
-  height: 432px;
-  width: 480px;
-  display: flex;
-  flex-wrap: wrap;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) inset, 0 1px 0 #fff;
+	height: 432px;
+	width: 480px;
+	display: flex;
+	flex-wrap: wrap;
 }
 #grid div {
-  width: 48px;
-  height: 48px;
+	width: 48px;
+	height: 48px;
 }
 
 .left-wall {
-  background-image: url("images/left-wall.png");
+	background-image: url("images/left-wall.png");
 }
 .right-wall {
-  background-image: url("images/right-wall.png");
+	background-image: url("images/right-wall.png");
 }
 .top-wall {
-  background-image: url("images/top-wall.png");
+	background-image: url("images/top-wall.png");
 }
 .bottom-wall {
-  background-image: url("images/bottom-wall.png");
+	background-image: url("images/bottom-wall.png");
 }
 .bottom-left-wall {
-  background-image: url("images/bottom-left-wall.png");
+	background-image: url("images/bottom-left-wall.png");
 }
 .top-left-wall {
-  background-image: url("images/top-left-wall.png");
+	background-image: url("images/top-left-wall.png");
 }
 .top-right-wall {
-  background-image: url("images/top-right-wall.png");
+	background-image: url("images/top-right-wall.jpg");
 }
 .bottom-right-wall {
-  background-image: url("images/bottom-right-wall.png");
+	background-image: url("images/bottom-right-wall.png");
+}
+.floor {
+	background-image: url("images/floor.png");
 }
