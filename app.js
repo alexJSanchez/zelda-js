@@ -104,14 +104,11 @@ document.addEventListener("DOMContentLoaded", () => {
             case "(":
                 square.classList.add("fire-pot");
                 break;
-            case "*":
-                //create slicer enemy
+            case "+":
+                square.classList.add("slicer-enemy");
                 break;
             case "}":
-                //create skeletor enemy
-                break;
-            case " ":
-                //empty walkable area
+                square.classList.add("skeletor-enemy");
                 break;
         }
 

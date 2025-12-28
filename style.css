@@ -25,7 +25,18 @@ body {
 	width: 48px;
 	height: 48px;
 }
-
+.link-right {
+	background-image: url("images/char-right.png");
+}
+.link-left {
+	background-image: url("images/char-left.png");
+}
+.link-up {
+	background-image: url("images/char-up.png");
+}
+.link-down {
+	background-image: url("images/char-down.png");
+}
 .left-wall {
 	background-image: url("images/left-wall.png");
 }
@@ -51,5 +62,29 @@ body {
 	background-image: url("images/bottom-right-wall.png");
 }
 .floor {
-	background-image: url("images/floor.png");
+	background-image: url("images/floor-tile.png");
+}
+.slicer-enemy {
+	background-image: url("images/slicer-enemy.png");
+}
+.skeletor-enemy {
+	background-image: url("images/skeletor-enemy.png");
+}
+.fire-pot {
+	background-image: url("images/fire-pot.png");
+}
+.stairs {
+	background-image: url("images/stairs.png");
+}
+.lantern {
+	background-image: url("images/lanterns.png");
+}
+.fire-pot {
+	background-image: url("images/fire-pot.png");
+}
+.left-door {
+	background-image: url("images/left-door.png");
+}
+.top-door {
+	background-image: url("images/top-door.png");
 }
