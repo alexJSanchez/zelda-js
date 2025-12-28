@@ -20,6 +20,8 @@ body {
 	width: 480px;
 	display: flex;
 	flex-wrap: wrap;
+	background: url("images/floor-tile.png");
+	background-size: cover;
 }
 #grid div {
 	width: 48px;
