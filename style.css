@@ -27,5 +27,26 @@ body {
 }
 
 .left-wall {
-  background-image: url("images/rfDoaa1.png");
+  background-image: url("images/left-wall.png");
+}
+.right-wall {
+  background-image: url("images/right-wall.png");
+}
+.top-wall {
+  background-image: url("images/top-wall.png");
+}
+.bottom-wall {
+  background-image: url("images/bottom-wall.png");
+}
+.bottom-left-wall {
+  background-image: url("images/bottom-left-wall.png");
+}
+.top-left-wall {
+  background-image: url("images/top-left-wall.png");
+}
+.top-right-wall {
+  background-image: url("images/top-right-wall.png");
+}
+.bottom-right-wall {
+  background-image: url("images/bottom-right-wall.png");
 }

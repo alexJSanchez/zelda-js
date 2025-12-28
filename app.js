@@ -70,6 +70,27 @@ document.addEventListener("DOMContentLoaded", () => {
       case "a":
         square.classList.add("left-wall");
         break;
+      case "b":
+        square.classList.add("right-wall");
+        break;
+      case "c":
+        square.classList.add("top-wall");
+        break;
+      case "d":
+        square.classList.add("bottom-wall");
+        break;
+      case "x":
+        square.classList.add("bottom-left-wall");
+        break;
+      case "y":
+        square.classList.add("top-left-wall");
+        break;
+      case "w":
+        square.classList.add("top-right-wall");
+        break;
+      case "z":
+        square.classList.add("bottom-right-wall");
+        break;
     }
   }
 });
